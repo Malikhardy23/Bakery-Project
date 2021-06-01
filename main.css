@@ -1,0 +1,53 @@
+.selector-for-some-widget {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.navbar-expand-sm .navbar-nav {
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .carousel-caption{
+      position: relative;
+      top: 5%;
+    }
+    img{
+      height: 35.5rem;
+    }
+
+    h1{
+      margin: 0 auto;
+      height: 5rem;
+      font-size: 5.5rem;
+    }
+
+    .carousel-caption{
+      padding-bottom: 10%;
+    } 
+    
+}
