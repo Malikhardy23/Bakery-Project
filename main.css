@@ -24,6 +24,156 @@ img{
   height: auto;
 }
 
+
+.carousel-item h1{
+  margin-bottom: -6.8rem;
+  letter-spacing: 2px;
+}
+
+#carouselExampleIndicators img{
+  width: 50%;
+  height: 50%;
+}
+
+.carousel-item h3{
+  position: relative;
+  bottom: -7.8rem;
+  letter-spacing: 3px;
+}
+
+/* midsection */
+
+#midSection{
+  display: grid;
+  grid-template-columns: 2fr 50%;
+  justify-content: space-around;
+  padding-left: 10%;
+  height: 100vh;
+}
+
+#midSection h1{
+  font-size: 55px;
+  letter-spacing: 2px;
+  height: 50%;
+  line-height: 65px;
+  text-align: left;
+  padding: 25px;
+  position: relative;
+  left: 25%;
+  width: 45%;
+  cursor: pointer;
+}
+
+#midSection img{
+  padding: 25px;
+  height: 400px;
+  width: 500px;
+  cursor: pointer;
+}
+
+/* container-fluid images */
+
+
+.container-fluid a{
+  position: relative;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.container-fluid .text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  opacity: 0;
+  transition: all .4s ease-in-out;
+}
+
+.container-fluid a:hover .text{
+  opacity: 1;
+  color: #fff;
+}
+
+/* PRODUCTS SECTION */
+
+#productSection{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 550px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+#productSection h1{
+  text-align: center;
+}
+
+.cakes a img{
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+}
+
+
+.cupcakes a img{
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+}
+
+.donuts a img{
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+}
+
+.cookies a img{
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+}
+
+.cookies p{
+  text-align: center;
+}
+
+.donuts p{
+  text-align: center;
+}
+
+.cupcakes p{
+  text-align: center;
+}
+
+.cakes p{
+  text-align: center;
+}
+
+
+/* products container */
+
+.productsContainer{
+  display: flex;
+  width: 100%;
+}
+
+/* add to order span */
+
+#addToOrder{
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+
+
+
+
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 /* Portrait */
 @media only screen 
@@ -47,7 +197,7 @@ img{
     }
 
     .carousel-caption{
-      padding-bottom: 10%;
+      padding-bottom: 5%;
     } 
     
 }
