@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.selector-for-some-widget {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+  
+  .navbar-expand-sm .navbar-nav {
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+  .reservationContainer{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      padding: 150px;
+  }
+
+  #reservationForm{
+    padding: 65px;
+    margin: 0 auto;
+    width: 100%;
+    margin-left: 5%;
+}
+
+/* opening hours */
+
+.openingHours{
+  border: 8px solid #fff;
+  padding: 20px;
+  background: rgb(131, 158, 179);
+  border-radius: 50px;
+}
+
+.openingHours p{
+  letter-spacing: 1px;
+  font-weight: 500;
+
+}
+
+.openingHours h1{
+  letter-spacing: 2px;
+  font-family: 'Encode Sans SC', sans-serif;
+}
+
+.openingHours p, 
+.openingHours h1{
+  color: #000;
+  font-weight: 600;
+}
+
+
+/* reservation section */
+
+#reservationSection{
+  background-color: rgb(131, 158, 179);
+}
+
+/* reservation form */
+
+#reservationForm{
+  border: 8px solid #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.268);
+  color: #fff;
+  border-radius: 50px;
+}
+
+#reservationForm input{
+  margin: 10px;
+  outline: none;
+  background: rgb(228, 226, 226);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: 5px;
+  font-size: 24px;
+}
+
+#reservationForm select{
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #000;
+}
+
+#reservationForm h2{
+  color: #000;
+}
+
+
+#reservationForm .btnContainer{
+  margin-top: 25px;
+}
+
+#reservationForm button{
+  padding: 15px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  background: royalblue;
+  border: none;
+  transition: all .4s ease-in-out;
+  outline: none;
+}
+
+#reservationForm button:hover{
+  color: #fff;
+}
+
+#reservationForm h4{
+  color: rgb(26, 26, 23);
+  letter-spacing: 5px;
+  font-style: italic;
+  font-variant: small-caps;
+  font-size: 30px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="reservation.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap" rel="stylesheet">   
+<title>enjoymykakes-katering.com/</title>
+</head>
+<body>
+    <!-------------FIXED NAVBAR---------------->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="justify-content: space-between">
+        <a class="navbar-brand" href="index.html" style="cursor: pointer; color: #fff;">Enjoy My KaKes & Katering LLC</a>
+        <ul class="navbar-nav" style="display: flex;">
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reservation.html">Reservations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+                <a class="nav-link" href="#">Testimonials</a>
+            </li>
+              <div class="container">
+                <li class="nav-item">
+                    <a class="nav-link">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                  </li>
+              </div>
+        </ul>
+    </nav>
+    <!------------RESERVATION SECTION------------->
+    <section id="reservationSection">
+        <div class="reservationContainer">
+            <div class="openingHours">
+                <p>Check Availability</p>
+                <h1>Opening Hours</h1>
+                <p>Monday - Friday</p>
+                <p>7 AM - 11 AM (Breakfast)</p>
+                <p>11 AM - 10 PM (Lunch/Dinner)</p>
+                <p>Saturday - Sunday</p>
+                <p>8 AM - 1 PM (Brunch)</p>
+                <p>1 PM - 9 PM (Lunch/Dinner)</p>
+                <p>+1 (631) 252 1234</p>
+            </div>
+            <form id="reservationForm">
+                <h4>Reservation</h4>
+                <h2>Book A Table Now And Enjoy The Taste</h2>
+                <div class="userInputContainer">
+                    <input type="text" class="uerInfo" id="firstName">
+                    <input type="text"  class="uerInfo" id="email">
+                    <input type="text" class="uerInfo" id="phone">
+                    <input type="date" class="uerInfo" id="date">
+                    <select class="userInfo" id="time"></select>
+                    <select class="uerInfo" id="guests"></select>
+                    <div class="btnContainer">
+                        <button id="submitBtn">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="reservations.js"></script>
+    </body>
+    </html>
